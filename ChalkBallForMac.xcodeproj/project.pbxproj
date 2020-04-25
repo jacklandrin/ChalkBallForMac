@@ -8,12 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		CCB8AAB52454373800FAAAA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB8AAB42454373800FAAAA2 /* AppDelegate.swift */; };
-		CCB8AAB72454373800FAAAA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB8AAB62454373800FAAAA2 /* ContentView.swift */; };
 		CCB8AAB92454373900FAAAA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCB8AAB82454373900FAAAA2 /* Assets.xcassets */; };
 		CCB8AABC2454373900FAAAA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCB8AABB2454373900FAAAA2 /* Preview Assets.xcassets */; };
 		CCB8AABF2454373900FAAAA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB8AABD2454373900FAAAA2 /* Main.storyboard */; };
 		CCB8AACB2454373900FAAAA2 /* ChalkBallForMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB8AACA2454373900FAAAA2 /* ChalkBallForMacTests.swift */; };
 		CCB8AAD62454373900FAAAA2 /* ChalkBallForMacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB8AAD52454373900FAAAA2 /* ChalkBallForMacUITests.swift */; };
+		CCB8AAF0245437BE00FAAAA2 /* Eraser Dust.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCB8AAE4245437BE00FAAAA2 /* Eraser Dust.ttf */; };
+		CCB8AAF1245437BE00FAAAA2 /* ChessboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB8AAE6245437BE00FAAAA2 /* ChessboardModel.swift */; };
+		CCB8AAF2245437BE00FAAAA2 /* ChalkStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB8AAE7245437BE00FAAAA2 /* ChalkStack.swift */; };
+		CCB8AAF3245437BE00FAAAA2 /* RecordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB8AAE8245437BE00FAAAA2 /* RecordModel.swift */; };
+		CCB8AAF4245437BE00FAAAA2 /* BallViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB8AAE9245437BE00FAAAA2 /* BallViewModel.swift */; };
+		CCB8AAF5245437BE00FAAAA2 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB8AAEB245437BE00FAAAA2 /* RecordView.swift */; };
+		CCB8AAF6245437BE00FAAAA2 /* ChalkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB8AAEC245437BE00FAAAA2 /* ChalkView.swift */; };
+		CCB8AAF7245437BE00FAAAA2 /* BackGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB8AAED245437BE00FAAAA2 /* BackGridView.swift */; };
+		CCB8AAF8245437BE00FAAAA2 /* ChalkSevenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB8AAEE245437BE00FAAAA2 /* ChalkSevenView.swift */; };
+		CCB8AAF9245437BE00FAAAA2 /* BallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB8AAEF245437BE00FAAAA2 /* BallView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +45,6 @@
 /* Begin PBXFileReference section */
 		CCB8AAB12454373800FAAAA2 /* ChalkBallForMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChalkBallForMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCB8AAB42454373800FAAAA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CCB8AAB62454373800FAAAA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CCB8AAB82454373900FAAAA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCB8AABB2454373900FAAAA2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CCB8AABE2454373900FAAAA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -48,6 +56,16 @@
 		CCB8AAD12454373900FAAAA2 /* ChalkBallForMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChalkBallForMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCB8AAD52454373900FAAAA2 /* ChalkBallForMacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChalkBallForMacUITests.swift; sourceTree = "<group>"; };
 		CCB8AAD72454373900FAAAA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCB8AAE4245437BE00FAAAA2 /* Eraser Dust.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Eraser Dust.ttf"; sourceTree = "<group>"; };
+		CCB8AAE6245437BE00FAAAA2 /* ChessboardModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChessboardModel.swift; sourceTree = "<group>"; };
+		CCB8AAE7245437BE00FAAAA2 /* ChalkStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChalkStack.swift; sourceTree = "<group>"; };
+		CCB8AAE8245437BE00FAAAA2 /* RecordModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordModel.swift; sourceTree = "<group>"; };
+		CCB8AAE9245437BE00FAAAA2 /* BallViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BallViewModel.swift; sourceTree = "<group>"; };
+		CCB8AAEB245437BE00FAAAA2 /* RecordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
+		CCB8AAEC245437BE00FAAAA2 /* ChalkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChalkView.swift; sourceTree = "<group>"; };
+		CCB8AAED245437BE00FAAAA2 /* BackGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackGridView.swift; sourceTree = "<group>"; };
+		CCB8AAEE245437BE00FAAAA2 /* ChalkSevenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChalkSevenView.swift; sourceTree = "<group>"; };
+		CCB8AAEF245437BE00FAAAA2 /* BallView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BallView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +116,10 @@
 		CCB8AAB32454373800FAAAA2 /* ChalkBallForMac */ = {
 			isa = PBXGroup;
 			children = (
+				CCB8AAE3245437BE00FAAAA2 /* Eraser Dust */,
+				CCB8AAE5245437BE00FAAAA2 /* ViewModels */,
+				CCB8AAEA245437BE00FAAAA2 /* Views */,
 				CCB8AAB42454373800FAAAA2 /* AppDelegate.swift */,
-				CCB8AAB62454373800FAAAA2 /* ContentView.swift */,
 				CCB8AAB82454373900FAAAA2 /* Assets.xcassets */,
 				CCB8AABD2454373900FAAAA2 /* Main.storyboard */,
 				CCB8AAC02454373900FAAAA2 /* Info.plist */,
@@ -133,6 +153,37 @@
 				CCB8AAD72454373900FAAAA2 /* Info.plist */,
 			);
 			path = ChalkBallForMacUITests;
+			sourceTree = "<group>";
+		};
+		CCB8AAE3245437BE00FAAAA2 /* Eraser Dust */ = {
+			isa = PBXGroup;
+			children = (
+				CCB8AAE4245437BE00FAAAA2 /* Eraser Dust.ttf */,
+			);
+			path = "Eraser Dust";
+			sourceTree = "<group>";
+		};
+		CCB8AAE5245437BE00FAAAA2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CCB8AAE6245437BE00FAAAA2 /* ChessboardModel.swift */,
+				CCB8AAE7245437BE00FAAAA2 /* ChalkStack.swift */,
+				CCB8AAE8245437BE00FAAAA2 /* RecordModel.swift */,
+				CCB8AAE9245437BE00FAAAA2 /* BallViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CCB8AAEA245437BE00FAAAA2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CCB8AAEB245437BE00FAAAA2 /* RecordView.swift */,
+				CCB8AAEC245437BE00FAAAA2 /* ChalkView.swift */,
+				CCB8AAED245437BE00FAAAA2 /* BackGridView.swift */,
+				CCB8AAEE245437BE00FAAAA2 /* ChalkSevenView.swift */,
+				CCB8AAEF245437BE00FAAAA2 /* BallView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCB8AABF2454373900FAAAA2 /* Main.storyboard in Resources */,
+				CCB8AAF0245437BE00FAAAA2 /* Eraser Dust.ttf in Resources */,
 				CCB8AABC2454373900FAAAA2 /* Preview Assets.xcassets in Resources */,
 				CCB8AAB92454373900FAAAA2 /* Assets.xcassets in Resources */,
 			);
@@ -266,7 +318,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCB8AAB72454373800FAAAA2 /* ContentView.swift in Sources */,
+				CCB8AAF8245437BE00FAAAA2 /* ChalkSevenView.swift in Sources */,
+				CCB8AAF7245437BE00FAAAA2 /* BackGridView.swift in Sources */,
+				CCB8AAF6245437BE00FAAAA2 /* ChalkView.swift in Sources */,
+				CCB8AAF2245437BE00FAAAA2 /* ChalkStack.swift in Sources */,
+				CCB8AAF9245437BE00FAAAA2 /* BallView.swift in Sources */,
+				CCB8AAF1245437BE00FAAAA2 /* ChessboardModel.swift in Sources */,
+				CCB8AAF5245437BE00FAAAA2 /* RecordView.swift in Sources */,
+				CCB8AAF4245437BE00FAAAA2 /* BallViewModel.swift in Sources */,
+				CCB8AAF3245437BE00FAAAA2 /* RecordModel.swift in Sources */,
 				CCB8AAB52454373800FAAAA2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
