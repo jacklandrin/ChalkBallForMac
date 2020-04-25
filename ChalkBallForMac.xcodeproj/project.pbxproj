@@ -13,7 +13,7 @@
 		CCB8AABF2454373900FAAAA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB8AABD2454373900FAAAA2 /* Main.storyboard */; };
 		CCB8AACB2454373900FAAAA2 /* ChalkBallForMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB8AACA2454373900FAAAA2 /* ChalkBallForMacTests.swift */; };
 		CCB8AAD62454373900FAAAA2 /* ChalkBallForMacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB8AAD52454373900FAAAA2 /* ChalkBallForMacUITests.swift */; };
-		CCB8AAF0245437BE00FAAAA2 /* Eraser Dust.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCB8AAE4245437BE00FAAAA2 /* Eraser Dust.ttf */; };
+		CCB8AAF0245437BE00FAAAA2 /* Eraser_Dust.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCB8AAE4245437BE00FAAAA2 /* Eraser_Dust.ttf */; };
 		CCB8AAF1245437BE00FAAAA2 /* ChessboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB8AAE6245437BE00FAAAA2 /* ChessboardModel.swift */; };
 		CCB8AAF2245437BE00FAAAA2 /* ChalkStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB8AAE7245437BE00FAAAA2 /* ChalkStack.swift */; };
 		CCB8AAF3245437BE00FAAAA2 /* RecordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB8AAE8245437BE00FAAAA2 /* RecordModel.swift */; };
@@ -56,7 +56,7 @@
 		CCB8AAD12454373900FAAAA2 /* ChalkBallForMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChalkBallForMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCB8AAD52454373900FAAAA2 /* ChalkBallForMacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChalkBallForMacUITests.swift; sourceTree = "<group>"; };
 		CCB8AAD72454373900FAAAA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CCB8AAE4245437BE00FAAAA2 /* Eraser Dust.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Eraser Dust.ttf"; sourceTree = "<group>"; };
+		CCB8AAE4245437BE00FAAAA2 /* Eraser_Dust.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Eraser_Dust.ttf; sourceTree = "<group>"; };
 		CCB8AAE6245437BE00FAAAA2 /* ChessboardModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChessboardModel.swift; sourceTree = "<group>"; };
 		CCB8AAE7245437BE00FAAAA2 /* ChalkStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChalkStack.swift; sourceTree = "<group>"; };
 		CCB8AAE8245437BE00FAAAA2 /* RecordModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordModel.swift; sourceTree = "<group>"; };
@@ -158,7 +158,7 @@
 		CCB8AAE3245437BE00FAAAA2 /* Eraser Dust */ = {
 			isa = PBXGroup;
 			children = (
-				CCB8AAE4245437BE00FAAAA2 /* Eraser Dust.ttf */,
+				CCB8AAE4245437BE00FAAAA2 /* Eraser_Dust.ttf */,
 			);
 			path = "Eraser Dust";
 			sourceTree = "<group>";
@@ -291,7 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCB8AABF2454373900FAAAA2 /* Main.storyboard in Resources */,
-				CCB8AAF0245437BE00FAAAA2 /* Eraser Dust.ttf in Resources */,
+				CCB8AAF0245437BE00FAAAA2 /* Eraser_Dust.ttf in Resources */,
 				CCB8AABC2454373900FAAAA2 /* Preview Assets.xcassets in Resources */,
 				CCB8AAB92454373900FAAAA2 /* Assets.xcassets in Resources */,
 			);
