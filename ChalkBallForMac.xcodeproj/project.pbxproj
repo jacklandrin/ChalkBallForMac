@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCB8AAB52454373800FAAAA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB8AAB42454373800FAAAA2 /* AppDelegate.swift */; };
+		CCB8AAB72454373800FAAAA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB8AAB62454373800FAAAA2 /* ContentView.swift */; };
+		CCB8AAB92454373900FAAAA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCB8AAB82454373900FAAAA2 /* Assets.xcassets */; };
+		CCB8AABC2454373900FAAAA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCB8AABB2454373900FAAAA2 /* Preview Assets.xcassets */; };
+		CCB8AABF2454373900FAAAA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB8AABD2454373900FAAAA2 /* Main.storyboard */; };
+		CCB8AACB2454373900FAAAA2 /* ChalkBallForMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB8AACA2454373900FAAAA2 /* ChalkBallForMacTests.swift */; };
+		CCB8AAD62454373900FAAAA2 /* ChalkBallForMacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB8AAD52454373900FAAAA2 /* ChalkBallForMacUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCB8AAC72454373900FAAAA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCB8AAA92454373800FAAAA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCB8AAB02454373800FAAAA2;
+			remoteInfo = ChalkBallForMac;
+		};
+		CCB8AAD22454373900FAAAA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCB8AAA92454373800FAAAA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCB8AAB02454373800FAAAA2;
+			remoteInfo = ChalkBallForMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCB8AAB12454373800FAAAA2 /* ChalkBallForMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChalkBallForMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB8AAB42454373800FAAAA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCB8AAB62454373800FAAAA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CCB8AAB82454373900FAAAA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCB8AABB2454373900FAAAA2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CCB8AABE2454373900FAAAA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCB8AAC02454373900FAAAA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCB8AAC12454373900FAAAA2 /* ChalkBallForMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChalkBallForMac.entitlements; sourceTree = "<group>"; };
+		CCB8AAC62454373900FAAAA2 /* ChalkBallForMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChalkBallForMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB8AACA2454373900FAAAA2 /* ChalkBallForMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChalkBallForMacTests.swift; sourceTree = "<group>"; };
+		CCB8AACC2454373900FAAAA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCB8AAD12454373900FAAAA2 /* ChalkBallForMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChalkBallForMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB8AAD52454373900FAAAA2 /* ChalkBallForMacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChalkBallForMacUITests.swift; sourceTree = "<group>"; };
+		CCB8AAD72454373900FAAAA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCB8AAAE2454373800FAAAA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB8AAC32454373900FAAAA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB8AACE2454373900FAAAA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCB8AAA82454373800FAAAA2 = {
+			isa = PBXGroup;
+			children = (
+				CCB8AAB32454373800FAAAA2 /* ChalkBallForMac */,
+				CCB8AAC92454373900FAAAA2 /* ChalkBallForMacTests */,
+				CCB8AAD42454373900FAAAA2 /* ChalkBallForMacUITests */,
+				CCB8AAB22454373800FAAAA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCB8AAB22454373800FAAAA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCB8AAB12454373800FAAAA2 /* ChalkBallForMac.app */,
+				CCB8AAC62454373900FAAAA2 /* ChalkBallForMacTests.xctest */,
+				CCB8AAD12454373900FAAAA2 /* ChalkBallForMacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCB8AAB32454373800FAAAA2 /* ChalkBallForMac */ = {
+			isa = PBXGroup;
+			children = (
+				CCB8AAB42454373800FAAAA2 /* AppDelegate.swift */,
+				CCB8AAB62454373800FAAAA2 /* ContentView.swift */,
+				CCB8AAB82454373900FAAAA2 /* Assets.xcassets */,
+				CCB8AABD2454373900FAAAA2 /* Main.storyboard */,
+				CCB8AAC02454373900FAAAA2 /* Info.plist */,
+				CCB8AAC12454373900FAAAA2 /* ChalkBallForMac.entitlements */,
+				CCB8AABA2454373900FAAAA2 /* Preview Content */,
+			);
+			path = ChalkBallForMac;
+			sourceTree = "<group>";
+		};
+		CCB8AABA2454373900FAAAA2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CCB8AABB2454373900FAAAA2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CCB8AAC92454373900FAAAA2 /* ChalkBallForMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCB8AACA2454373900FAAAA2 /* ChalkBallForMacTests.swift */,
+				CCB8AACC2454373900FAAAA2 /* Info.plist */,
+			);
+			path = ChalkBallForMacTests;
+			sourceTree = "<group>";
+		};
+		CCB8AAD42454373900FAAAA2 /* ChalkBallForMacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCB8AAD52454373900FAAAA2 /* ChalkBallForMacUITests.swift */,
+				CCB8AAD72454373900FAAAA2 /* Info.plist */,
+			);
+			path = ChalkBallForMacUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCB8AAB02454373800FAAAA2 /* ChalkBallForMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB8AADA2454373900FAAAA2 /* Build configuration list for PBXNativeTarget "ChalkBallForMac" */;
+			buildPhases = (
+				CCB8AAAD2454373800FAAAA2 /* Sources */,
+				CCB8AAAE2454373800FAAAA2 /* Frameworks */,
+				CCB8AAAF2454373800FAAAA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChalkBallForMac;
+			productName = ChalkBallForMac;
+			productReference = CCB8AAB12454373800FAAAA2 /* ChalkBallForMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCB8AAC52454373900FAAAA2 /* ChalkBallForMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB8AADD2454373900FAAAA2 /* Build configuration list for PBXNativeTarget "ChalkBallForMacTests" */;
+			buildPhases = (
+				CCB8AAC22454373900FAAAA2 /* Sources */,
+				CCB8AAC32454373900FAAAA2 /* Frameworks */,
+				CCB8AAC42454373900FAAAA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCB8AAC82454373900FAAAA2 /* PBXTargetDependency */,
+			);
+			name = ChalkBallForMacTests;
+			productName = ChalkBallForMacTests;
+			productReference = CCB8AAC62454373900FAAAA2 /* ChalkBallForMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCB8AAD02454373900FAAAA2 /* ChalkBallForMacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB8AAE02454373900FAAAA2 /* Build configuration list for PBXNativeTarget "ChalkBallForMacUITests" */;
+			buildPhases = (
+				CCB8AACD2454373900FAAAA2 /* Sources */,
+				CCB8AACE2454373900FAAAA2 /* Frameworks */,
+				CCB8AACF2454373900FAAAA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCB8AAD32454373900FAAAA2 /* PBXTargetDependency */,
+			);
+			name = ChalkBallForMacUITests;
+			productName = ChalkBallForMacUITests;
+			productReference = CCB8AAD12454373900FAAAA2 /* ChalkBallForMacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCB8AAA92454373800FAAAA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = jack;
+				TargetAttributes = {
+					CCB8AAB02454373800FAAAA2 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					CCB8AAC52454373900FAAAA2 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = CCB8AAB02454373800FAAAA2;
+					};
+					CCB8AAD02454373900FAAAA2 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = CCB8AAB02454373800FAAAA2;
+					};
+				};
+			};
+			buildConfigurationList = CCB8AAAC2454373800FAAAA2 /* Build configuration list for PBXProject "ChalkBallForMac" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCB8AAA82454373800FAAAA2;
+			productRefGroup = CCB8AAB22454373800FAAAA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCB8AAB02454373800FAAAA2 /* ChalkBallForMac */,
+				CCB8AAC52454373900FAAAA2 /* ChalkBallForMacTests */,
+				CCB8AAD02454373900FAAAA2 /* ChalkBallForMacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCB8AAAF2454373800FAAAA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB8AABF2454373900FAAAA2 /* Main.storyboard in Resources */,
+				CCB8AABC2454373900FAAAA2 /* Preview Assets.xcassets in Resources */,
+				CCB8AAB92454373900FAAAA2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB8AAC42454373900FAAAA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB8AACF2454373900FAAAA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCB8AAAD2454373800FAAAA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB8AAB72454373800FAAAA2 /* ContentView.swift in Sources */,
+				CCB8AAB52454373800FAAAA2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB8AAC22454373900FAAAA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB8AACB2454373900FAAAA2 /* ChalkBallForMacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB8AACD2454373900FAAAA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB8AAD62454373900FAAAA2 /* ChalkBallForMacUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCB8AAC82454373900FAAAA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCB8AAB02454373800FAAAA2 /* ChalkBallForMac */;
+			targetProxy = CCB8AAC72454373900FAAAA2 /* PBXContainerItemProxy */;
+		};
+		CCB8AAD32454373900FAAAA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCB8AAB02454373800FAAAA2 /* ChalkBallForMac */;
+			targetProxy = CCB8AAD22454373900FAAAA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCB8AABD2454373900FAAAA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCB8AABE2454373900FAAAA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCB8AAD82454373900FAAAA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCB8AAD92454373900FAAAA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CCB8AADB2454373900FAAAA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ChalkBallForMac/ChalkBallForMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"ChalkBallForMac/Preview Content\"";
+				DEVELOPMENT_TEAM = B22726TNGH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ChalkBallForMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = jack.ChalkBallForMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CCB8AADC2454373900FAAAA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ChalkBallForMac/ChalkBallForMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"ChalkBallForMac/Preview Content\"";
+				DEVELOPMENT_TEAM = B22726TNGH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ChalkBallForMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = jack.ChalkBallForMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CCB8AADE2454373900FAAAA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = B22726TNGH;
+				INFOPLIST_FILE = ChalkBallForMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = jack.ChalkBallForMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChalkBallForMac.app/Contents/MacOS/ChalkBallForMac";
+			};
+			name = Debug;
+		};
+		CCB8AADF2454373900FAAAA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = B22726TNGH;
+				INFOPLIST_FILE = ChalkBallForMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = jack.ChalkBallForMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChalkBallForMac.app/Contents/MacOS/ChalkBallForMac";
+			};
+			name = Release;
+		};
+		CCB8AAE12454373900FAAAA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = B22726TNGH;
+				INFOPLIST_FILE = ChalkBallForMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jack.ChalkBallForMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ChalkBallForMac;
+			};
+			name = Debug;
+		};
+		CCB8AAE22454373900FAAAA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = B22726TNGH;
+				INFOPLIST_FILE = ChalkBallForMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jack.ChalkBallForMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ChalkBallForMac;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCB8AAAC2454373800FAAAA2 /* Build configuration list for PBXProject "ChalkBallForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB8AAD82454373900FAAAA2 /* Debug */,
+				CCB8AAD92454373900FAAAA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCB8AADA2454373900FAAAA2 /* Build configuration list for PBXNativeTarget "ChalkBallForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB8AADB2454373900FAAAA2 /* Debug */,
+				CCB8AADC2454373900FAAAA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCB8AADD2454373900FAAAA2 /* Build configuration list for PBXNativeTarget "ChalkBallForMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB8AADE2454373900FAAAA2 /* Debug */,
+				CCB8AADF2454373900FAAAA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCB8AAE02454373900FAAAA2 /* Build configuration list for PBXNativeTarget "ChalkBallForMacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB8AAE12454373900FAAAA2 /* Debug */,
+				CCB8AAE22454373900FAAAA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCB8AAA92454373800FAAAA2 /* Project object */;
+}
