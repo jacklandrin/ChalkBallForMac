@@ -16,6 +16,12 @@ struct ChalkSevenView: View {
     @State var lastNewBallOffsetX: CGFloat = 0.0
     @State var newBallOffsetY: CGFloat = newBallDefaultY
     @State var showRecord = false
+    @State var muteBGM = false
+    {
+        didSet {
+            muteBGM ? MusicHelper.sharedHelper.stopBackgroundMusic() : MusicHelper.sharedHelper.playBackgroundMusic()
+        }
+    }
     let transitionEffect = AnyTransition.slide.combined(with: .opacity)
     
     var backgrid = BackGridModel()
@@ -27,6 +33,11 @@ struct ChalkSevenView: View {
                 Spacer().frame(height:27)
                 HStack {
                     Spacer()
+                    Button(action:{
+                        muteBGM.toggle()
+                    }) {
+                        Text(muteBGM ? "BGM off" : "BGM on")
+                    }
                     Button(action: {
                         self.showRecord = true
                     }) {
@@ -135,7 +146,7 @@ struct ChalkSevenView: View {
                     .animation(.spring())
             }
         }.onAppear{
-            self.chessboard.playMusic()
+            MusicHelper.sharedHelper.playBackgroundMusic()
         }
     }
     

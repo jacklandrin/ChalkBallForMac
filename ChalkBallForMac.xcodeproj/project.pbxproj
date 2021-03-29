@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CC66314226127C8700E52BC1 /* chalk7.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CC66313E26127A5900E52BC1 /* chalk7.m4a */; };
+		CC6631472612812800E52BC1 /* MusicHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6631462612812800E52BC1 /* MusicHelper.swift */; };
 		CCB8AAB52454373800FAAAA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB8AAB42454373800FAAAA2 /* AppDelegate.swift */; };
 		CCB8AAB92454373900FAAAA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCB8AAB82454373900FAAAA2 /* Assets.xcassets */; };
 		CCB8AABC2454373900FAAAA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCB8AABB2454373900FAAAA2 /* Preview Assets.xcassets */; };
@@ -45,6 +46,7 @@
 
 /* Begin PBXFileReference section */
 		CC66313E26127A5900E52BC1 /* chalk7.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = chalk7.m4a; sourceTree = "<group>"; };
+		CC6631462612812800E52BC1 /* MusicHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicHelper.swift; sourceTree = "<group>"; };
 		CCB8AAB12454373800FAAAA2 /* ChalkBallForMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChalkBallForMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCB8AAB42454373800FAAAA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCB8AAB82454373900FAAAA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -181,6 +183,7 @@
 				CCB8AAE7245437BE00FAAAA2 /* ChalkStack.swift */,
 				CCB8AAE8245437BE00FAAAA2 /* RecordModel.swift */,
 				CCB8AAE9245437BE00FAAAA2 /* BallViewModel.swift */,
+				CC6631462612812800E52BC1 /* MusicHelper.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -339,6 +342,7 @@
 				CCB8AAF5245437BE00FAAAA2 /* RecordView.swift in Sources */,
 				CCB8AAF4245437BE00FAAAA2 /* BallViewModel.swift in Sources */,
 				CCB8AAF3245437BE00FAAAA2 /* RecordModel.swift in Sources */,
+				CC6631472612812800E52BC1 /* MusicHelper.swift in Sources */,
 				CCB8AAB52454373800FAAAA2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
