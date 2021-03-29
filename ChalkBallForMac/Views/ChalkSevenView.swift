@@ -41,7 +41,10 @@ struct ChalkSevenView: View {
                         Text("Level:").font(Font.custom("Eraser Dust",size: 24)).opacity(0.95).foregroundColor(.white)
                         Image("level_bg").overlay(
                             Text("\(self.chessboard.level)")
-                            .font(Font.custom("Eraser Dust",size: 24)).opacity(0.95).foregroundColor(.white)
+                            .font(Font.custom("Eraser Dust",size: 24))
+                                .opacity(0.95)
+                                .foregroundColor(.white)
+                            .fixedSize()
                         )
                     }
                     
@@ -78,7 +81,10 @@ struct ChalkSevenView: View {
                    Ball().environmentObject(self.chessboard.newBall).offset(x: self.newBallOffsetX ,y: self.newBallOffsetY)
                 
             if self.chessboard.scoreTime != 1 {
-                Text("Chain X \(self.chessboard.scoreTime)").font(Font.custom("Eraser Dust",size: 24 + 0.2 * CGFloat(self.chessboard.scoreTime)))
+                Text("Chain X \(self.chessboard.scoreTime)")
+                    .font(Font.custom("Eraser Dust",size: 24 + 0.2 * CGFloat(self.chessboard.scoreTime)))
+                    .fixedSize()
+                    .frame(width:300)
                     .opacity(0.95)
                     .transition(transitionEffect)
                     .foregroundColor(.yellow)
@@ -128,6 +134,8 @@ struct ChalkSevenView: View {
                     .environmentObject(RecordList.shared).transition(AnyTransition.slide.combined(with: .opacity))
                     .animation(.spring())
             }
+        }.onAppear{
+            self.chessboard.playMusic()
         }
     }
     

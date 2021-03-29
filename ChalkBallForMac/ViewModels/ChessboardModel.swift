@@ -9,6 +9,7 @@
 import Foundation
 import Combine
 import SwiftUI
+import AVFoundation
 
 class Chessboard: ObservableObject {
     
@@ -18,6 +19,8 @@ class Chessboard: ObservableObject {
     
     private var needBang:Bool = false
     private var shouldRowUp: Bool = false
+    
+    var music: AVAudioPlayer!
     
     var scoreTime:Int = 1
     {
@@ -467,5 +470,15 @@ class Chessboard: ObservableObject {
             self.checkGridFull()
         }
         return 0;
+    }
+    
+    func playMusic() {
+        if let musicURL = Bundle.main.path(forResource: "chalk7", ofType: "m4a") {
+            if let audioPlayer = try? AVAudioPlayer(contentsOf: URL(fileURLWithPath: musicURL)) {
+                music = audioPlayer
+                music.numberOfLoops = -1
+                music.play()
+            }
+        }
     }
 }

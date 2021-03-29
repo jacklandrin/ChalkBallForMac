@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC66314226127C8700E52BC1 /* chalk7.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CC66313E26127A5900E52BC1 /* chalk7.m4a */; };
 		CCB8AAB52454373800FAAAA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB8AAB42454373800FAAAA2 /* AppDelegate.swift */; };
 		CCB8AAB92454373900FAAAA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCB8AAB82454373900FAAAA2 /* Assets.xcassets */; };
 		CCB8AABC2454373900FAAAA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCB8AABB2454373900FAAAA2 /* Preview Assets.xcassets */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC66313E26127A5900E52BC1 /* chalk7.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = chalk7.m4a; sourceTree = "<group>"; };
 		CCB8AAB12454373800FAAAA2 /* ChalkBallForMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChalkBallForMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCB8AAB42454373800FAAAA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCB8AAB82454373900FAAAA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -93,6 +95,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC66313D26127A3900E52BC1 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CC66313E26127A5900E52BC1 /* chalk7.m4a */,
+				CCB8AAE3245437BE00FAAAA2 /* Eraser Dust */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		CCB8AAA82454373800FAAAA2 = {
 			isa = PBXGroup;
 			children = (
@@ -116,7 +127,7 @@
 		CCB8AAB32454373800FAAAA2 /* ChalkBallForMac */ = {
 			isa = PBXGroup;
 			children = (
-				CCB8AAE3245437BE00FAAAA2 /* Eraser Dust */,
+				CC66313D26127A3900E52BC1 /* Resource */,
 				CCB8AAE5245437BE00FAAAA2 /* ViewModels */,
 				CCB8AAEA245437BE00FAAAA2 /* Views */,
 				CCB8AAB42454373800FAAAA2 /* AppDelegate.swift */,
@@ -290,6 +301,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC66314226127C8700E52BC1 /* chalk7.m4a in Resources */,
 				CCB8AABF2454373900FAAAA2 /* Main.storyboard in Resources */,
 				CCB8AAF0245437BE00FAAAA2 /* Eraser_Dust.ttf in Resources */,
 				CCB8AABC2454373900FAAAA2 /* Preview Assets.xcassets in Resources */,
